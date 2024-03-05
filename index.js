@@ -10,6 +10,7 @@ import productRoutes from "./routes/product.js";
 import stripeRoute from "./routes/stripe.js"
 import cartRoute from "./routes/cart.js";
 import orderRoute from "./routes/order.js";
+import swaggerDocs from "./utils/swagger.js";
 
 
 dotenv.config();
@@ -35,6 +36,7 @@ app.use("/api/products", productRoutes)
 app.use("/api/carts", cartRoute);
 app.use("/api/orders", orderRoute);
 app.use("/api/checkout", stripeRoute);
+swaggerDocs(app, PORT)
 
 app.get('/', (req, res) => res.send('Hello World!'))
  

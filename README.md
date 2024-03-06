@@ -8,36 +8,33 @@ Welcome to the shopnow API! This API provides endpoints for managing products, o
 2. API Endpoints
 3. Authentication
 4. Usage Examples
-5. Contributing
-6. License
 
 ## Getting Started
 
 To get started with the E-Commerce Fashion Store API, follow these steps:
 
-1. **Clone the repository**:
+ **Clone the repository**:
 
 ```
 git clone https://github.com/manenim/shopnow-api.git
 ```
 
 
-2. **Install dependencies**:
+ **Install dependencies**:
 ```
 cd e-commerce-fashion-api npm install
 ```
 
-
-3. **Configure environment variables**:
+ **Configure environment variables**:
 Create a `.env` file and set the necessary environment variables.
 
-4. **Run the server**:
+ **Run the server**:
 ```
 npm start
 ```
 
 
-5. **Explore the API**:
+ **Explore the API**:
 Open your browser or API client and navigate to `http://localhost:3000/api`.
 
 ## API Endpoints

@@ -48,5 +48,4 @@ Here are some of the key API endpoints:
 - `DELETE /api/products/:id`: Delete a product.
 
 Check the full API documentation for more endpoints and details.
-[View Documentation](https://website-name.com](https://ecom-api-ptqc.onrender.com/api/docs/)https://ecom-api-ptqc.onrender.com/api/docs/)
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+<a href="[http://example.com/](https://ecom-api-ptqc.onrender.com/api/docs/) target="_blank">View Documentation</a>

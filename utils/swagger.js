@@ -24,10 +24,10 @@ try {
 }
 
 function swaggerDocs(app, port) {
-  app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+  app.use("/api/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
   // Docs in JSON Format
-  app.get("/docs-json", (req, re) => {
+  app.get("/api/docs-json", (req, re) => {
     if (!swaggerSpec) {
       // Handle the case where swaggerSpec is not available (e.g., generation failed)
       return res

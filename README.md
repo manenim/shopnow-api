@@ -49,3 +49,4 @@ Here are some of the key API endpoints:
 
 Check the full API documentation for more endpoints and details.
 [View Documentation](https://website-name.com](https://ecom-api-ptqc.onrender.com/api/docs/)https://ecom-api-ptqc.onrender.com/api/docs/)
+<a href="http://example.com/" target="_blank">Hello, world!</a>
